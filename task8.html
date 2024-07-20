@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            line-height: 30px;
+            width: 670px;
+            margin: 80px 0px 0px 400px;
+            border: 20px black;
+            background-image: url(flower.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        span{
+            color: red;
+        }
+        form{
+            font-weight: 400;
+        }
+        button{
+            background-color: rgb(5, 244, 164);
+            text-align: center;
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+            border: aquamarine;
+            padding: 22px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="text-align: center;">Customer Information Form</h1>
+        <p style="font-size: 20px;">Please fill out the Customer Information form below to join. Fields marked with a red star are mandatory.
+        </p>
+        <hr>
+        <form>
+            <table>
+                <tr>
+                    <td><label>Customer Name<span>*</span></label></td>
+                </tr>
+                <tr>
+                    <td><select style="width:100px">
+                            <option>Title</option>
+                        </select></td>
+                    <td><input type="text" placeholder="First"></td>
+                    <td><input type="text" placeholder="Initials"></td>
+                    <td><input type="text" placeholder="Last"></td>
+                </tr>
+                <tr>
+                    <td><label>Customer Adress<span>*</span></label></td>
+                </tr>
+                <tr>
+                    <td colspan="4"><input type="text" placeholder="Street Address" style="width: 650px;"></td>
+                </tr>
+                <tr>
+                    <td colspan="4" style="width:50%;"><input type="text" placeholder="Street Address Line 2" style="width: 650px;"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="text" placeholder="City" style="width:300px;"></td>
+                    <td colspan="2"><input type="text" placeholder="Religion" style="width:340px;"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="text" placeholder="Postal/Zip Code" style="width:300px;"></td>
+                    <td colspan="2"><select style="width:350px">
+                            <option>Country</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Customer Phone</td>
+                    <td colspan="2">Customer Fax</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="tel" placeholder="#### ### ###" style="width:300px;"></td>
+                    <td colspan="2"><input type="tel" placeholder="#### ### ###" style="width:340px;"></td>
+
+                </tr>
+                <tr>
+                    <td colspan="2">Customer Date of Birth</td>
+                    <td colspan="2">Customer ID/Email</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="date" placeholder="MM/DD/YYYY" style="width:300px;"></td>
+                    <td colspan="2"><input type="text" style="width:340px"></td>
+                </tr>
+            </table>
+        </form>
+        <p>All Customer information will be kept with descrettionand will not be ued for other marketing or advertisment purpose without customer approval.</p>
+        <input type="checkbox">I allow my information to be used for future campaigns.
+        <br>
+        <center>
+            <button>SEND INFORMATION</button>
+        </center>
+    </div>
+</body>
+
+</html>
