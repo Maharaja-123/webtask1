@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(53, 52, 52);
+        }
+
+        .container {
+            width: 1200px;
+            background-color: aliceblue;
+            height: 700px;
+            border-radius: 20px;
+            margin: 50px 50px 50px 160px;
+            display: flex;
+        }
+
+        .one {
+            background-color: white;
+            width: 250px;
+            border-radius: 20px;
+
+
+        }
+
+        li {
+            list-style: none;
+            margin: 30px;
+        }
+
+        .two {
+            background-color: gainsboro;
+            width: 1000px;
+            border-radius: 20px;
+
+        }
+
+        .nav {
+            display: flex;
+        }
+.sec{
+    margin-left: 40px;
+}
+        .details {
+            background-color: white;
+            height: 350px;
+            margin: 40px;
+            border-radius: 20px;
+
+
+        }
+
+        .table {
+            background-color: white;
+            width: 800px;
+            margin-top: -10px;
+            padding: 30px;
+            border-radius: 30px;
+        }
+td{
+    margin: 5px;
+}
+span{
+    color:rgb(38, 250, 5);
+}
+        input {
+            width: 300px;
+            height: 20px;
+            margin: 20px;
+            font-size: 20px;
+            border-radius: 5px;
+            border-radius: 0.5px solid grey;
+        }
+        img{
+            width: 10%;
+            height: 10%;
+            margin-right:15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="one">
+            <li style="font-size: 30px;font-weight: bolder;"> <img src="puzzle.png">Puzzler</li>
+            <li><img src="dashboard.png">Dashboard</li>
+            <li><img src="order.png">Order</li>
+            <li><img src="product.png">Product</li>
+            <li><img src="user.png">Customer</li>
+            <li><img src="employee.png">Employee</li>
+            <li><img src="bill.png">Billing</li>
+            <li><img src="analysis.png">Analytics</li>
+            <li><img src="settings.png"><select style="border:none;"><option>settings</option><option>Account Informaion</option><option>Change Password</option><option>Notification</option><option>Personalization</option><option>Security & Privacy</option></select></li>
+           <br><br><br><br>
+            <li><img src="question.png">Help</li>
+            <li><img src="logout.png">Log out</li>
+        </div>
+        <div class="two">
+            <div class="sec">
+                <div class="nav">
+                    <table>
+                        <tr>
+                            <td><input type="text" placeholder="Search"></td>
+                            <td><img src="email.png" style="float: right;"></td>
+                            <td><img src="bell.png" style="float: right;"></td>
+                            <td><img src="user.png" style="float: right;"></td>
+                            <td>Jane Cooper<br>jane@example.com</td>
+                        </tr>
+                    </table>
+                </div>
+                <p style="font-size: 20px;margin-top: -10px;">Account Information</p>
+                <div class="table">
+                    <table>
+                        <tr><img src="my profile.jpeg" style="border-radius: 40px;"></tr>
+                        <tr style="color: gray;">
+                            <td>First Name</td>
+                            <td style="float: inline-end;">Edit</td>
+                            <td>Last Name</td>
+                            <td style="float: right;">Save</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input type="text"></td>
+                            <td colspan="2"><input type="text"></td>
+                        </tr>
+                        <tr style="color: gray;">
+                            <td>Email</td>
+                            <td style="float: right;"><span>Verified</span></td>
+                            <td>Phone Number</td>
+                            <td style="float: right;"><span>Verified</span></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input type="text"></td>
+                            <td colspan="2"><input type="text"></td>
+                        </tr>
+                        <tr style="color: gray;">
+                            <td colspan="2">Date of Birth</td>
+                            <td colspan="2">country</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input type="date"></td>
+                            <td colspan="2"><select style="width:320px;height: 30px;" >
+                                    <option >Bangaldesh</option>
+                                </select></td>
+                        </tr>
+                        <tr style="color: gray;">
+                            <td colspan="3">Bio</td>
+                            <td colspan="1" style="float: right;">Edit</td>
+                        </tr>
+                    </table>
+                    <input type="text" style="width: 660px;height: 40px;">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
