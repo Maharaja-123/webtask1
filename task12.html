@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: aliceblue;
+    }
+    .cl{
+        width:40px;
+        height: 7px;
+        background-color: black;
+        margin:10px;
+    }
+    .section{
+        display: flex;
+       
+    }
+    .s2{
+        width:1px;
+        background-color:rgba(0, 0, 0, 0.145);
+        margin-left: -40px;
+       
+    }
+    .s3{
+        margin:30px;
+        padding-left: 160px;
+        
+    }
+    li{
+        list-style: none;
+        margin: 40px;
+    }
+    li img{
+        width:20px;
+        
+        height: 20px;
+    }
+    .pic{
+        display: flex;
+    }
+    table{
+        padding: 30px;
+        
+    }
+    input{
+        width:340px;
+        height: 50px;
+        background-color: rgba(214, 211, 211, 0.36);
+        border-radius: 4px;
+        text-align: center;
+        font-size: 24px;
+    }
+    td{
+        padding:10px;
+        color:gray;
+    }
+    button{
+        width:250px;
+        background-color: rgb(255, 119, 0);
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+        color:white;
+        padding: 20px;
+        margin-left:300px;
+    }
+</style>
+<body>
+    <div class="head">
+        <div class="h1">
+            <div class="cl"></div>
+          <div class="cl"></div>
+        <div class="cl"></div>
+        </div>
+        <div class="h2" style="float: right;margin-top: -50px;">
+            <img src="bell.png" width="70px" height="50px">
+            <img src="yellowgirl.jpeg" width="50px" height="50px" style="border-radius: 50px;">
+            <select style="border: none;" ><option >Sara Tancredi</option></select>
+        </div><br>
+        <hr>
+        <div class="section">
+            <div class="s1">
+                <h1 style="margin-left: 15px;">User Profile</h1>
+                <li style="border-right: 2px solid rgb(255, 119, 0);margin-right: 40px;font-size: 27px;font-weight: 800;padding-right:30px"><img src="user.png">User Info</li>
+                <li><img src="love.png">Favorites</li>
+                <li><img src="line.png">Watchlist</li>
+                <li><img src="settings.png">setting</li>
+                <li><img src="bell.png">Notification</li>
+                <li style="margin-top: 200px;"><img src="orange log.png">Log out</li>
+            </div>
+            <div class="s2"></div>
+            <div class="s3">
+                <div class="pic">
+                    <img src="yellowgirl.jpeg" style="width: 100px;height: 100px;border-radius: 50px;">
+                    <p style="font-size: 30px;margin-left:30px;">Sara Tancredi<br>
+                    <span style="color: grey;font-size: 20px;">New York,USA</span></p>
+                </div>
+                <div class="table">
+                    <table>
+                        <tr>
+                            <td>Name</td>
+                            <td>Full Name</td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Email Address</td>
+                            <td>Phone Number</td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Location</td>
+                            <td>Postal Code</td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                    </table>
+                    <button>Save Changes</button>
+                </div>
+            </div>
+        </div>
+      
+    </div>
+</body>
+</html>
