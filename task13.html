@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body{
+        background-color: rgb(6, 24, 24);
+       } .container {
+
+
+            display: flex;
+            margin-left: 140px;
+        }
+        .one img{
+            background-color:rgb(180, 220, 251);
+        }
+
+        .one {
+            background-color: rgb(59, 59, 151);
+            color: white;
+            padding: 20px;
+            font-size: 22px;
+            border-radius: 20px 0px 0px 20px;
+        }
+
+        .two {
+            background-color: rgba(255, 255, 255, 0.951);
+            border-radius: 0px 20px 20px 0px;
+            padding:0px 50px 0px 50px;
+
+        }
+         .option{
+            margin-top: 100px;
+           color:rgb(180, 220, 251);
+         }
+        li {
+            list-style: none;
+            margin: 40px;
+        }
+
+        .nav li {
+            display: inline;
+            margin: 10px;
+            font-size: 23px;
+        }
+.main{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    margin:50px 0px;
+    padding: 20px;
+}
+        td {
+            padding: 5px;
+            font-weight: 600;
+        }
+
+        input {
+            border-radius: 5px;
+            width: 270px;
+            height: 25px;
+            color:grey;
+            border: 0.5px solid grey;
+        }
+
+        button {
+            background-color: rgb(131, 107, 234);            border-radius: 12px;
+            height: 40px;
+            width: 200px;
+            float: right;
+            color: white;
+            margin-right: 15px;
+            border: none;
+            border-radius: 20px;
+           
+        }
+        span{
+            margin-top: 20px;
+            color: azure;
+        }
+        select{
+            border: none;
+            background-color: rgb(59, 59, 151);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="one">
+            <div class="profile" style="display:flex;">
+                <img src="yellowgirl.jpeg" style="width: 50px;height:50px;border-radius: 50px;">
+                <select>
+                    <option>
+                        Grance Hanson 
+                    </option>
+                    <span>Beach house</span>
+                </select>
+            </div>
+            <div class="option">
+                <li><img src="dashboard.png" style="width: 20px;height: 20px;margin-right: 20px;">Dashboard</li>
+                <li><img src="plans.png" style="width: 20px;height: 20px;margin-right: 20px;">Rooms</li>
+                <li><img src="responsive.png" style="width: 20px;height: 20px;margin-right: 20px;">Device</li>
+                <li><img src="analysis.png"  style="width: 20px;height: 20px;margin-right: 20px;">Analytics</li>
+                <li style="color: white;"><img src="settings.png"  style="width: 20px;height: 20px;margin-right: 20px;background-color: white;">Setting</li>
+            </div>
+        </div>
+        <div class="two">
+            <p style="font-size: 30px;margin-left: 15px;font-weight: 700;">Setting</p>
+            <div class="nav">
+                <li style="background-color: rgb(131, 107, 234);padding: 15px; color: white;
+                border-radius: 20px;
+">Edit Profile</li>
+                <li>Perferences</li>
+                <li>Security</li>
+                <li>Data Privacy</li>
+            </div>
+            <div class="main">
+                <div class="pro">
+                    <img src="yellowgirl.jpeg" style="width: 100px;height: 100px;border-radius: 50px;">
+
+                </div>
+                <div class="tab">
+                    <table>
+
+                        <tr>
+                            <td>First Name</td>
+                            <td>First Name</td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Email Address</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input type="email" style="width: 600px;"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Phone Number</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input type="tel" style="width: 600px;"></td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 20px;">Personal Address</td>
+                        </tr>
+                        <tr>
+                            <td>Country</td>
+                            <td>City</td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td>Zip code</td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><button>Save Changes</button></td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
